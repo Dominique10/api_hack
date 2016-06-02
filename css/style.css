@@ -1,0 +1,74 @@
+body{
+	background-color: white;
+  margin: 0;
+}
+
+.header {
+	background-color: #387DB9;
+  background: url(../img/crowd.jpg) no-repeat center center fixed;
+   background-repeat: no-repeat; 
+  background-size: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 25rem;
+  -webkit-filter: blur(10px);
+}
+form{
+  text-align: center;
+}
+h1{
+	margin: 0;
+  color: #3DCBED;
+  background-color: rgba(255, 255, 255, 0.31);
+  border-radius: 1rem;
+  box-shadow: 10px 6px 10px #888888;
+  font-size: 5rem;
+  -webkit-text-stroke: 1px black;
+}
+h1,h2{
+	text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-size:cover;
+  display: block;
+  background-image: url('../img/crowd.jpg');
+  min-width: 100%;
+  height: 25rem;
+  
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.displayData{
+	left: 0;
+  position: absolute;
+  text-align: center;
+  top: 27rem;
+  width: 100%;
+  background: lightgrey;
+}

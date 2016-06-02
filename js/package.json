@@ -1,0 +1,14 @@
+{
+  "name": "api_hack",
+  "version": "1.0.0",
+  "description": "api hack for yahoo, and twitter",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominique Young",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.4"
+  }
+}
